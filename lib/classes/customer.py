@@ -1,8 +1,8 @@
 from classes.order import Order
 
 class Customer:
-    def __init__(self, name):
-        self.name=name
+    def __init__(self, name : str):
+        self._name=name
         self.myorders=[]
         self.mycoffees=[]
 

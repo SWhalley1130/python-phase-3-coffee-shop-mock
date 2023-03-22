@@ -14,13 +14,14 @@ if __name__ == '__main__':
 mocha=Coffee("Mocha")
 cap=Coffee("Cap")
 
+
 sarah=Customer("Sarah")
 lewie=Customer("Lewie")
-ex=Customer("Example")
+ex=Customer(1)
 
-o1=Order(sarah, cap, 4)
-o2=Order(lewie, cap, 3)
-o3=Order(sarah, cap, 3)
+
+
+
 
 
 

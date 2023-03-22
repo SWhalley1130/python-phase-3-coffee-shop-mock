@@ -29,3 +29,6 @@ class Coffee:
         for coffee in self.myorders:
             sum+=coffee.price
         return sum/len(self.myorders)
+    
+    def delete(self):
+        del self
