@@ -16,6 +16,7 @@ cap=Coffee("Cap")
 
 sarah=Customer("Sarah")
 lewie=Customer("Lewie")
+ex=Customer("Example")
 
 o1=Order(sarah, cap, 4)
 o2=Order(lewie, cap, 3)
